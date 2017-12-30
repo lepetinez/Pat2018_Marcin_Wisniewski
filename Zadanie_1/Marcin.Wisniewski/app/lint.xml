@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="GifUsage">
+        <ignore path="src/main/res/drawable-nodpi/samolocik.gif" />
+        <ignore path="src/main/res/drawable/samolocik.gif" />
+    </issue>
+    <issue id="IconExtension">
+        <ignore path="src/main/res/drawable/samolocik.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/samolocik.gif" />
+        <ignore path="src/main/res/drawable/samolocik.png" />
+    </issue>
+</lint>

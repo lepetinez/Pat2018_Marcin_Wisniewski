@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Marcin.Wisniewski</string>
-    <string name="name_string">Name</string>
-    <string name="login_button">Login</string>
-    <string name="failed_login_text">Name Field is empty.\nPlease enter your name.</string>
-    <string name="hello">Hello  </string>
-    <string name="ok">OK</string>
-
-</resources>

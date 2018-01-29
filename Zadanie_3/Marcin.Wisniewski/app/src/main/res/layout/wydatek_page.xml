@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/choose_typ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/chooseTyp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/typeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/choose_typ"></Spinner>
+
+    <TextView
+        android:id="@+id/chooseNazwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/typeList"
+        android:layout_marginTop="24dp"
+        android:text="@string/chooseNazwa"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nazwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/chooseNazwa"
+        android:inputType="textCapCharacters"
+        android:textAlignment="textEnd"
+        tools:ignore="LabelFor">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/wartosc"
+        android:layout_below="@id/nazwa"
+        android:layout_marginBottom="17dp"
+        android:text="@string/chooseWartosc"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/wartosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nazwa"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:textAlignment="textEnd"
+        tools:ignore="LabelFor,RtlSymmetry" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/wartosc"
+        android:layout_marginTop="61dp"
+        android:text="@string/save" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wartosc"
+        android:layout_marginTop="18dp"
+        android:text="@string/chooseDate"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="17dp"
+        android:text="@string/chooseDate"
+        android:textStyle="bold" />
+
+</RelativeLayout>

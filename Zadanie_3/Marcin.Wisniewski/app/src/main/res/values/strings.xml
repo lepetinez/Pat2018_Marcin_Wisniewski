@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Marcin.Wisniewski</string>
+    <string name="wydatek_info">Szczegoly wydatku:</string>
+    <string name="chooseTyp">Wybierz typ</string>
+    <string name="action_add">add</string>
+    <string name="action_drop">drop</string>
+    <string name="action_edit">edit</string>
+    <string name="save">Save</string>
+    <string name="chooseNazwa">Nazwa</string>
+    <string name="chooseWartosc">Wartosc</string>
+    <string name="chooseDate">Data</string>
+    <string name="todo">TODO</string>
+    <string name="typ_info"> Szczegoly typu </string>
+    <string name="definiuj_wydatki">Definiuj Wydatki</string>
+    <string name="definiuj_typy">Definiuj Typy</string>
+    <string name="typ">Typ</string>
+    <string name="typBlad">Musisz dodać typ wydatku aby dodać wydatek !</string>
+    <string name="nazwaBlad">Prosze wpisac nazwe wydatku !</string>
+    <string name="wartoscBlad">Prosze wpisac wartosc wydatku !</string>
+
+</resources>
